@@ -1,0 +1,51 @@
+﻿.navigationBar {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.navigationBar li {
+
+    background-color:#deedf7;
+
+    float: left;
+    padding:8px;
+
+}
+
+.navigationBar li:hover {
+
+    background-color:#f6fbff;
+    cursor:pointer;
+
+}
+
+.navigationBar .active {
+
+    background-color:#9cc2cb;
+
+}
+
+.navigationBar .active:hover {
+
+    background-color:#b3cbdb;
+
+}
+
+.navigationBar .leftBorder {
+
+    border-bottom-left-radius:15px;
+    border-top-left-radius:15px;
+
+}
+
+.navigationBar .rightBorder {
+
+    border-bottom-right-radius:15px;
+    border-top-right-radius:15px;
+
+}

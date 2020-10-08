@@ -1,0 +1,12 @@
+<jboss-deployment-structure>
+    <deployment>
+       	<dependencies>
+       		<module name="javax.api"/>
+	        <module name="javax.xml.ws.api" />
+	        <module name="com.google.gson" />
+	        <module name="com.mysql" />
+	        <module name="com.monditech.fluig" />
+	        <module name="com.monditech.fluig.webservices" />
+        </dependencies>  
+    </deployment>
+</jboss-deployment-structure>

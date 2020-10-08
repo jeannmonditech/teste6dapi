@@ -1,0 +1,9 @@
+application.code=MonditechWeb
+application.title=MonditechWeb
+application.description=Rest para consumo
+application.category=Rest
+developer.code=edgar.meante
+developer.name=Edgar Meante
+developer.url=http://www.monditech.com.br
+simple.deploy=false
+application.uiwidget=false

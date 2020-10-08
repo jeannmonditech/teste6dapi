@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <title>Colaboradores</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-control" content="no-cache, must-revalidate">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" type="text/css" href="/portal/resources/style-guide/css/fluig-style-guide.min.css" />
+    <link rel="stylesheet" type="text/css" href="/MonditechWeb/Utils/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/MonditechWeb/Utils/Style-Bootstrap.css" />
+    <script src="/MonditechWeb/JQuery/jquery.min.js"></script>
+    <script src="../../../../webdesk/vcXMLRPC.js"></script>
+    <script src="\MonditechWeb\Utils\Web.js"></script>
+    <script src="\MonditechWeb\Utils\ZoomWeb.js"></script>
+    <script src="\MonditechWeb\Utils\Util.js"></script>
+
+    <script type="text/javascript" src="\MonditechWeb\JQuery\jquery.min.js"></script>
+    <script type="text/javascript" src="/portal/resources/style-guide/js/fluig-style-guide.min.js"></script>
+    <script src="colaboradores.js"></script>
+</head>
+<body onload="OnLoad();">
+    <div class="fluig-style-guide">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-12"><label for="localizarPlaqueta">Procurar por Nome ou Setor</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <!--Search passando event para funcionar com o enter-->
+                                        <input type="text" id="search" name="search" class="form-control input-sm" onkeypress="Search(event);" />
+                                        <span class="input-group-btn">
+                                            <!--Search passando true para funcionar com o botão-->
+                                            <button id="buscaColaborador" class="btn btn-info" type="button" onclick="Search(true);"><span class="fluigicon fluigicon-zoom-in" style="font-size: 16px;"></span></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table  table-hover " style="text-align:center; border:none; margin-bottom: 0 !important;">
+                                        <thead id="tabela" style="font-weight: 600;"></thead>
+                                        <tbody id="contentTabela" onmouseover="" style="cursor: pointer;"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="erro" class="alert alert-danger" style="text-align:center; display: none;"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="" style=" display:  flex;margin-left: 40%;">
+                        <button id="pagAnterior" class="btn btn-info btn-sm" type="button" onclick="MudaPagina(-1)"><span class="fluigicon fluigicon-chevron-left"></span></button>
+                        <div id="pagina" class="" style="width: 35px;text-align:  center;padding-top: 2px;font-weight: 600;">1</div>
+                        <button id="pagProxima" class="btn btn-info btn-sm" type="button" onclick="MudaPagina(1)"><span class="fluigicon fluigicon-chevron-right"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

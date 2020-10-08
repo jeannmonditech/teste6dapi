@@ -1,0 +1,19 @@
+﻿div.dataTables_filter {
+    text-align: left !important;
+}
+
+#registros th {
+    color: #ffffff;
+    background-color: #337ab7;
+    border-color: #2b74b4;
+}
+
+#registros tr:hover {
+    background-color: #ecf9ff;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold !important;
+}
+

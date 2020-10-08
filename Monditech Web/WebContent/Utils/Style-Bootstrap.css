@@ -1,0 +1,22 @@
+.fluig-style-guide .panel-primary {
+    border-color: #337ab7 !important;
+}
+
+.fluig-style-guide .panel-primary > .panel-heading {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+    border-color: #337ab7 !important;
+}
+
+.fluig-style-guide .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #337ab7 !important;
+}
+
+.fluig-style-guide .panel-primary > .panel-heading .badge {
+    color: #337ab7 !important;
+    background-color: #fff !important;
+}
+
+.fluig-style-guide .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #337ab7 !important;
+}

@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/com/monditech/fluig/web/Web.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/ApprovalLevelDto.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/ApproverDto.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/ApproverWithLevelDto.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/Attachment.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/DocumentDto.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/DocumentSecurityConfigDto.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/ECMFolderServiceService.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/ECMFolderServiceServiceLocator.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/ECMFolderServiceServiceSoapBindingStub.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/Exception.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/FolderService.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/SociableDocumentDto.java=UTF-8
+encoding//src/com/totvs/technology/ecm/dm/ws/WebServiceMessage.java=UTF-8
+encoding/<project>=UTF-8

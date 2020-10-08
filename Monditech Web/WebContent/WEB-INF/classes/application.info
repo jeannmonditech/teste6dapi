@@ -1,0 +1,12 @@
+application.title=MonditechWeb
+application.description=Rest para consumo
+application.type=widget
+application.code=MonditechWeb
+application.category=REST
+application.renderer=freemarker
+developer.code=heber.ferreira
+developer.name=Heber Alves Ferreira
+developer.url=http://www.monditech.com.br
+simple.deploy=false
+application.uiwidget=false
+view.file=/index.html

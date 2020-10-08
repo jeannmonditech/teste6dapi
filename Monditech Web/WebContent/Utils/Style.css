@@ -1,0 +1,109 @@
+﻿hr {
+
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #a7cce5;
+    margin: 1em 0;
+    padding: 0; 
+
+}
+
+table {
+
+    border-spacing:0px;
+
+}
+
+body, textarea, input, td, th {
+
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size:14px !important;
+    color:#333333;
+     
+}
+
+#visualizacaoPagina .slotfull {
+
+    font-size:14px !important;
+
+}
+
+fieldset {
+
+    background:#ffffff;
+    border-top:1px solid #a7cce5;
+    border-bottom:1px solid #a7cce5;
+    border-right:2px solid #a7cce5;
+    border-left:2px solid #a7cce5;
+    padding:10px 20px;
+    margin:0 auto;
+    margin-bottom:10px;
+
+}
+
+textarea, input, select {
+
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color:#fcfcfc;
+    border-color:#bbbbbb #dddddd #eeeeee;
+    border-style:solid;
+    border-width:1px;
+    color:#444;
+    font-size:12px;
+    letter-spacing:1px;
+    padding:2px 8px;    
+
+}
+
+textarea:focus, input:focus, select:focus {
+
+    background-color:#fffec2;
+
+}
+
+input[readonly],
+input[readonly="readonly"],
+textarea[readonly],
+textarea[readonly="readonly"],
+.readonly,
+input:disabled,
+textarea:disabled,
+select:disabled {
+
+    background-color:#c8d7e5;
+    font-size:12px;
+
+}
+
+.erro {
+
+    background:#ffb0b0 !important;
+
+}
+
+.mensagemErro {
+
+    font-size:12px;
+    color:#fc5555;
+    padding-bottom:0px;
+    padding-top:0px;
+
+}
+
+.icone {
+
+    vertical-align:middle;
+    cursor:pointer;
+
+}
+
+.iconePequeno {
+
+    vertical-align:middle;
+    cursor:pointer;
+    width:20px;
+
+}

@@ -1,0 +1,64 @@
+﻿<html>
+<head>
+    <title>Consultor</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="\MonditechWeb\Bootstrap\css\bootstrap.min.css" />
+    <script type="text/javascript" src="\MonditechWeb\Bootstrap\js\bootstrap.min.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="consultor.js"></script>
+    <script src="/MonditechWeb/JQuery/jquery.min.js"></script>
+    <script src="../../../../webdesk/vcXMLRPC.js"></script>
+    <script src="\MonditechWeb\Utils\Web.js"></script>
+    <script src="\MonditechWeb\Utils\Util.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="consultor.css" />
+
+    <!-- MANTER OS LINKS ABAIXO NA ORDEM POR CAUSA DA DATATABLE -->
+    <link rel="stylesheet" type="text/css" href="\MonditechWeb\Bootstrap\css\bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="\MonditechWeb\DataTablesBootstrap\DataTables\css\dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="\MonditechWeb\DataTablesBootstrap\Buttons\css\buttons.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="\MonditechWeb\DataTablesBootstrap\Responsive\css\responsive.bootstrap.min.css" />
+
+    <script type="text/javascript" src="\MonditechWeb\Bootstrap\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\DataTables\js\jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\DataTables\js\dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\Buttons\js\dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\Buttons\js\buttons.bootstrap.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\Buttons\js\buttons.flash.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\Buttons\js\buttons.html5.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\Datatables\Buttons\jszip.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\Buttons\js\buttons.colVis.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\Responsive\js\dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="\MonditechWeb\DataTablesBootstrap\Responsive\js\responsive.bootstrap.min.js"></script>
+
+</head>
+<body onload="OnLoad();">
+    <div class="container-fluid">
+        <div class="row" style="padding-top: 15px;">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="tabela">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table id="registros" class="table table-bordered table-condensed" style="width: 100% !important; border-color: #337ab7; border-radius: 3px; font-size: 15px !important;">
+                                        <thead>
+                                            <tr>
+                                                <th>C&oacute;digo</th>
+                                                <th>Nome</th>
+                                                <th>E-mail</th>
+                                                <th>Matrícula</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
